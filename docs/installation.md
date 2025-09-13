@@ -64,12 +64,6 @@ Install core dependencies:
 pip install -r requirements.txt
 ```
 
-For web interface functionality:
-
-```bash
-pip install -r web_requirements.txt
-```
-
 ### 4. Install CUDA Toolkit
 
 Download and install the CUDA Toolkit from the [NVIDIA website](https://developer.nvidia.com/cuda-downloads).
@@ -112,10 +106,6 @@ FALLBACK_MODEL_PATH=models/theta_latest
 DATASET_DIR=Datasets
 LOG_LEVEL=INFO
 ```
-
-### Web Interface Configuration
-
-If using the web interface, review and adjust the settings in `webserver_config.json`.
 
 ## Verify Installation
 

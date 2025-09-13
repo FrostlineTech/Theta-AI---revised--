@@ -25,12 +25,6 @@ This guide will help you quickly get up and running with Theta AI.
    pip install -r requirements.txt
    ```
 
-3. For web interface, install additional dependencies:
-
-   ```bash
-   pip install -r web_requirements.txt
-   ```
-
 ## Using Theta AI
 
 ### Command Line Interface
@@ -40,16 +34,6 @@ Start the command-line interface:
 ```bash
 interface.bat
 ```
-
-### Web Interface
-
-Start the web interface:
-
-```bash
-web_interface.bat
-```
-
-Then open your browser and navigate to [http://localhost:5000](http://localhost:5000)
 
 ## Running Your First Query
 
