@@ -1,0 +1,89 @@
+# Theta AI .gitignore
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+*.cover
+
+# Logs
+logs/
+*.log
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Model checkpoints and large binary files
+models/**/*.pt
+models/**/*.bin
+models/**/*.pb
+
+# Keep model configuration files
+!models/**/*.json
+!models/**/*.yaml
+!models/**/*.yml
+!models/**/*.py
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Database files
+*.db
+*.sqlite3
+
+# Web interface specific files
+static/uploads/
+static/temp/
+static/generated/
+sessions/
+node_modules/
+package-lock.json
+.sass-cache/
+*.css.map
+*.js.map
+
+# Web server configuration
+.htaccess
+webserver_config.json
+
+# Temporary web interface files
+web_cache/
+
+#web files
+*.html
+*.css
+*.js
+
+#web interface files
+static/
+templates/
+web_requirements.txt
